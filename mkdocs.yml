@@ -1,1 +1,61 @@
-site_name: My Docs
+site_name: Tech Guru
+site_description: 
+site_author: Aldon P Smith <aldon.smith@skellig.com>
+
+repo_name: 'GitHub'
+repo_url: 'https://github.com/smithaldon1/aldon-smith-blog'
+
+# markdown_extensions:
+#   - meta
+#   - admonition
+#   - footnotes
+#   - codehilite
+#   - pymdownx.superfences
+#   - markdown_include.include:
+#     base_path: docs
+
+theme: 
+  name: 'material'
+  custom_dir: 'theme'
+  language: en
+  include_sidebar: true
+  #favicon: assets/img/icon.png
+  #logo: assets/img/logo.png
+  feature:
+    tabs: false
+  pallete: 
+    primary: 'deep orange'
+    accent: 'light blue'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+
+copyright: "Copyright &copy; 2022 Aldon P Smith"
+
+extra_css:
+  - assets/styles/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+
+plugins:
+  - search
+  - exclude:
+      glob:
+        - "**/include-*.md"
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.snippets:
+      check_paths: true
+  - toc:
+      permalink: true

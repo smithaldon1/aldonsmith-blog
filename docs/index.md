@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to the Pharma 4.0 Blog
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
